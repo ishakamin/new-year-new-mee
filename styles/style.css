@@ -1,0 +1,89 @@
+.hero-section{
+
+    height: 800px;
+    width:  100%;
+}
+    .right{
+        position:relative;
+        margin-left: 70% ;
+        /* margin-top: 50%; */
+        padding-top: 200px;
+        height: 700px;
+    }
+    .left{
+        position:absolute;
+    }
+    .btn-design{
+        background-color: blue;
+    }
+
+    .left img{
+
+        height: 800px;
+        width: 100%;
+    }
+
+    /* .text-section{
+
+        width: 100%;
+        display: flex;
+
+    } */
+
+    .text-section {
+        width: 100%;
+        display: flex;
+        align-content: center;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .text-left{
+
+        width: 50%;
+        float: left;
+    }
+
+    .text-right{
+        width: 50%;
+    }
+
+    .ptag{
+        font-size: medium;
+        font-style: italic;
+        font-weight: 100px;
+        padding-top: 350px;
+        padding-left: 200px;
+        width: 200px;
+        height: auto;
+    }
+
+    /* .small-box{
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+    } */
+
+    .box,ul{
+        display: flex;
+        padding-left: 200px;
+        text-align-last: auto;
+        
+     
+        
+    }
+    .box-tag{
+
+        text-align: center;
+    }
+
+    .pic{
+        height: 50px;
+        width: 200px;
+        background-color: darkslategrey;
+        position: absolute;
+    }
+    .me{
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(4, 0, 255);
+    }
